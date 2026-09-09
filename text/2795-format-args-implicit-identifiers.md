@@ -239,7 +239,7 @@ Implicit named arguments seek to combine the brevity of positional arguments wit
 
 ### Alternative Implementations and Syntax
 
-Users who wish to use implicit named arguments could make use of a third-party crate, for example the existing [fstrings crate](https://crates.io/crates/fstrings), which was built during early discussion about this proposal. This RFC accepts that deferring to a third-party crate is a reasonable option. It would however miss out on the opportunity to provide a small and straightforward ergonomic boost to many macros which are core to the rust language as well as the ecosytem which is derived from these standard library macros.
+Users who wish to use implicit named arguments could make use of a third-party crate, for example the existing [fstrings crate](https://crates.io/crates/fstrings), which was built during early discussion about this proposal. This RFC accepts that deferring to a third-party crate is a reasonable option. It would however miss out on the opportunity to provide a small and straightforward ergonomic boost to many macros which are core to the rust language as well as the ecosystem which is derived from these standard library macros.
 
 For similar reasons this RFC would argue that introducing a new alternative macro to `format_args!` in the standard library would not be a good outcome compared to adding to the existing macro.
 
